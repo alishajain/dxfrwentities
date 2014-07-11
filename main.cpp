@@ -292,7 +292,7 @@ void testWriting() {
         		DL_Attributes("mainlayer", 256, -1, "BYLAYER"));
 		}
 
-		else if( sel_str.compare("circle") == 0)
+		else if( sel_str.compare("rectangle") == 0)
 		{
 			float x1, y1, x2, y2, x3, y3, x4, y4, l, b;
 

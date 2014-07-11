@@ -1593,6 +1593,118 @@ BYLAYER
  30
 0.0
   0
+LINE
+  5
+54
+100
+AcDbEntity
+100
+AcDbLine
+  8
+mainlayer
+ 62
+256
+370
+-1
+  6
+BYLAYER
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 11
+50.0
+ 21
+0.0
+ 31
+0.0
+  0
+LINE
+  5
+55
+100
+AcDbEntity
+100
+AcDbLine
+  8
+mainlayer
+ 62
+256
+370
+-1
+  6
+BYLAYER
+ 10
+50.0
+ 20
+0.0
+ 30
+0.0
+ 11
+50.0
+ 21
+40.0
+ 31
+0.0
+  0
+LINE
+  5
+56
+100
+AcDbEntity
+100
+AcDbLine
+  8
+mainlayer
+ 62
+256
+370
+-1
+  6
+BYLAYER
+ 10
+50.0
+ 20
+40.0
+ 30
+0.0
+ 11
+0.0
+ 21
+40.0
+ 31
+0.0
+  0
+LINE
+  5
+57
+100
+AcDbEntity
+100
+AcDbLine
+  8
+mainlayer
+ 62
+256
+370
+-1
+  6
+BYLAYER
+ 10
+0.0
+ 20
+40.0
+ 30
+0.0
+ 11
+0.0
+ 21
+0.0
+ 31
+0.0
+  0
 ENDSEC
   0
 SECTION
@@ -1631,7 +1743,7 @@ E
   3
 AcDbVariableDictionary
 350
-54
+58
   0
 DICTIONARY
   5
@@ -2095,7 +2207,7 @@ Layout2
   0
 DICTIONARY
   5
-54
+58
 100
 AcDbDictionary
 281
@@ -2103,15 +2215,15 @@ AcDbDictionary
   3
 DIMASSOC
 350
-56
+5A
   3
 HIDETEXT
 350
-55
+59
   0
 DICTIONARYVAR
   5
-55
+59
 100
 DictionaryVariables
 280
@@ -2121,7 +2233,7 @@ DictionaryVariables
   0
 DICTIONARYVAR
   5
-56
+5A
 100
 DictionaryVariables
 280
