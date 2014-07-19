@@ -292,6 +292,21 @@ void testWriting() {
         		DL_Attributes("mainlayer", 256, -1, "BYLAYER"));
 		}
 
+		else if( sel_str.compare("ellipse") == 0)
+   		{
+			float cx, cy, mx, my, rxy, angle1, angle2;
+			cout<<"********* ELLIPSE ***********"<<endl;
+			f>>cx>>cy>>mx>>my>>rxy>>angle1>>angle2;
+
+			dxf->writeEllipse(
+        		*dw,
+        		DL_EllipseData(cx,cy,0.0,		// center point
+                    			mx,my,0.0,		// x and y intercepts 
+					rxy, angle1, angle2),
+                    
+        		DL_Attributes("mainlayer", 256, -1, "BYLAYER"));
+		}
+
 		else if( sel_str.compare("rectangle") == 0)
 		{
 			float x1, y1, x2, y2, x3, y3, x4, y4, l, b;

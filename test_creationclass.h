@@ -45,7 +45,7 @@ public:
     virtual void addLine(const DL_LineData& data);
     virtual void addArc(const DL_ArcData& data);
     virtual void addCircle(const DL_CircleData& data);
-   // virtual void addEllipse(const DL_EllipseData& data);
+    virtual void addEllipse(const DL_EllipseData& data);
     virtual void addPolyline(const DL_PolylineData& data);
     virtual void addVertex(const DL_VertexData& data);
     virtual void add3dFace(const DL_3dFaceData& data);

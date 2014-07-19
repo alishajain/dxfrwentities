@@ -80,6 +80,16 @@ void Test_CreationClass::addCircle(const DL_CircleData& data) {
     printAttributes();
 }
 
+/**
+ * Sample implementation of the method which handles circle entities.
+ */
+void Test_CreationClass::addEllipse(const DL_EllipseData& data) {
+    printf("ELLIPSE   (%6.3f, %6.3f, %6.3f) (%6.3f, %6.3f, %6.3f) %6.3f, %6.3f, %6.3f\n",
+           data.cx, data.cy, data.cz,
+	   data.mx, data.my, data.mz,
+           data.ratio, data.angle1, data.angle2);
+    printAttributes();
+}
 
 /**
  * Sample implementation of the method which handles polyline entities.
